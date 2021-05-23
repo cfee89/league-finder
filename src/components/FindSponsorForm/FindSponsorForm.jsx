@@ -35,7 +35,7 @@ const FindSponsorForm = () => {
 	};
 
 	return (
-		<div className="container">
+		<div>
 			<div className="row">
 				<div className="col s6">
 					<label htmlFor="budget"> Budget: </label>

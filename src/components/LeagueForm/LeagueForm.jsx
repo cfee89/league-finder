@@ -36,9 +36,9 @@ const LeagueForm = ({ change }) => {
 	};
 
 	return (
-		<>
+		<div>
 			<div className="row">
-				<div className="col m6 s12">
+				<div className="col s6" >
 					<label htmlFor="leagueName"> Name: </label>
 					<input
                         id="leagueName"	
@@ -51,7 +51,7 @@ const LeagueForm = ({ change }) => {
 				</div>
             </div>
             <div className="row">
-				<div className="col m6 s12">
+				<div className="col s6">
 					<label htmlFor="price">Price: </label>
 					<input
                         id="price"
@@ -63,7 +63,7 @@ const LeagueForm = ({ change }) => {
 				</div>
             </div>
 			<div className="row">
-				<div className="col m6 s12">
+				<div className="col s6">
 					<label htmlFor="lat">Latitude: </label>
 					<input
                         id="lat"
@@ -75,7 +75,7 @@ const LeagueForm = ({ change }) => {
 				</div>
             </div>
 			<div className="row">
-				<div className="col m6 s12">
+				<div className="col s6">
 					<label htmlFor="long">Longitude: </label>
 					<input
                         id="long"
@@ -97,7 +97,7 @@ const LeagueForm = ({ change }) => {
 					Add League
 				</button>
 			</div>
-		</>
+		</div>
 	);
 };
 
